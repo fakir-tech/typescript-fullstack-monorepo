@@ -4,9 +4,23 @@ This repository is our basic boilerplate to start new webapplications in the fol
 
 * node/nestjs backend
 * fullstack typescript
+* react (vite)
 * nx
 * docker/kubernetes deployment
 
+
+# Addtional recommendations
+
+We use vscode with this stack.
+
+## how to add a new nestjs microservice?
+
+
+    nx g @nrwl/nest:app microserviceName
+
+## how to add a new reactjs project
+
+    nx g @nrwl/react:app
 
 
 # Todo
@@ -15,3 +29,10 @@ This repository is our basic boilerplate to start new webapplications in the fol
 [] react build
 [] production setup
 [] docker container
+
+
+# files info
+
+* workspace.json -> for  nx
+* .vscode -> settings for vscode
+* apps folder -> contains one folder per project
