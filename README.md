@@ -9,6 +9,19 @@ This repository is our basic boilerplate to start new webapplications in the fol
 * docker/kubernetes deployment
 
 
+# Development
+
+## run dev env
+
+
+
+    npm run dev
+
+    http://localhost:4200/    # frontend
+    
+    http://localhost:3333/api # backend
+
+
 # Addtional recommendations
 
 We use vscode with this stack.
@@ -20,7 +33,14 @@ We use vscode with this stack.
 
 ## how to add a new reactjs project
 
-    nx g @nrwl/react:app
+    nx g @nrwl/react:app appName
+
+
+# Helpful commands
+
+
+    nx graph # shows dependency graph
+
 
 
 # Todo
