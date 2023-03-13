@@ -35,7 +35,7 @@
       }
     ]
   },
-  "defaultProject": "api",
+  "defaultProject": "corebackend",
   "generators": {
     "@nrwl/react": {
       "application": {
